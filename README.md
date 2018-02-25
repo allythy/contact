@@ -8,7 +8,7 @@ Instale o gulp globalmente, se tiver já instalado ignore essa etapa:
 ```
 npm i -g gulp
 ```
-Depois instale as dependências
+Depois instale as dependências do node
 
 ```
 npm install
@@ -24,4 +24,4 @@ Inicialize o gulp:
 gulp
 ```
 
-OBS: Se você não souber instalar o nodejs no Debian e derivados eu fiz um post no ensinado como fazer, [você pode ler aqui.](https://allythy.github.io/Como-instalar-o-NodeJS-no-Debian) Mas se você tiver com preguiça e quiser uma coisa mais rápida  [tem esse script que eu fiz para instalar o nodejs e outras coisas.](https://github.com/allythy/Pos-instalacao-Debian)
+OBS: Se você não souber instalar o nodejs no Debian e derivados eu fiz um post ensinando como fazer, [você pode ler aqui.](https://allythy.github.io/Como-instalar-o-NodeJS-no-Debian) Mas se você tiver com preguiça e quiser uma coisa mais rápida  [tem esse script que eu fiz para instalar o nodejs e outras coisas.](https://github.com/allythy/Pos-instalacao-Debian)
