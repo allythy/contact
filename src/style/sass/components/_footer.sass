@@ -1,0 +1,16 @@
+@import "components/viriables"
+@import "components/mixins"
+
+footer
+  &::before
+    content: ''
+    border-top: $color-border
+    width: 30px
+    display: block
+    margin: 4em auto 1em
+
+.text-rodape
+  font-family: 'Roboto', sans-serif
+  color: #C8C8D1
+  @include fontsize(12)
+  text-align: center

@@ -1,25 +1,15 @@
+@import "components/viriables"
+@import "components/mixins"
+@import "components/header"
+@import "components/footer"
+@import "components/icon"
+
 body
-  background: linear-gradient(to right, #4e4376, #2b5876)
+  background: $gradient-bg
 
 section
   display: flex
   justify-content: center
-
-footer::before
-  content: ''
-  border-top: solid 1px rgba(255, 255, 255, 0.25)
-  width: 30px
-  display: block
-  margin: 4em auto 1em
-
-i
-  padding: 0.3em
-  color: #C8C8D1
-  background-color: rgba(255, 255, 255, 0.075)
-
-span
-  font-weight: bold
-  font-size: 0.875em
 
 .container
   height: 80vh
@@ -27,50 +17,6 @@ span
   flex-direction: column
   justify-content: center
 
-a
-  color: #C8C8D1
-  text-decoration: none
-  &:hover
-    font-weight: bold
-
-.avatar
-  width: 9.375em
-  height: 9.375em
-  margin: 3em
-  padding: 0.625em
-  border-radius: 50%
-  border: solid 1px rgba(255, 255, 255, 0.25)
-  background-color: rgba(255, 255, 255, 0.075)
-
-.center-img
-  display: flex
-  justify-content: center
-
-.title
-  color: rgba(255, 255, 255, 0.65)
-  margin: 0 0 0.4em
-  text-align: center
-  font-family: 'Roboto', sans-serif
-  font-size: 2.5em
-
-.center-text
-  color: rgba(255, 255, 255, 0.65)
-  text-align: center
-  font-family: 'Roboto', sans-serif
-
-.social
-  margin: 0.625em
-  padding: 0
-
-.text-rodape
-  font-family: 'Roboto', sans-serif
-  color: #C8C8D1
-  font-size: 0.75em
-  text-align: center
-
-i:hover
-  background-color: rgba(255, 255, 255, 0.25)
-  transition: all 0.3s ease-in
 
 @media (max-width: 375px)
   .social

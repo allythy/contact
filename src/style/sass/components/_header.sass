@@ -1,0 +1,32 @@
+
+@import "components/viriables"
+@import "components/mixins"
+
+.center-img
+  display: flex
+  justify-content: center
+
+.avatar
+  width: 9.375em
+  height: 9.375em
+  margin: 3em
+  padding: 0.625em
+  border-radius: 50%
+  border: $color-border
+  background-color: $bg
+
+.title
+  color: rgba(255, 255, 255, 0.65)
+  margin: 0 0 0.4em
+  text-align: center
+  font-family: 'Roboto', sans-serif
+  @include fontsize(40)
+
+.center-text
+  color: rgba(255, 255, 255, 0.65)
+  text-align: center
+  font-family: 'Roboto', sans-serif
+
+span
+  font-weight: bold
+  @include fontsize(14)
