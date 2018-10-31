@@ -9,7 +9,7 @@
   "author": "Allythy Rennan",
   "license": "GNU GPL",
   "devDependencies": {
-    "gulp": "*",
+    "gulp": "^4.0.0",
     "gulp-sass": "*",
     "lite-server": "*"
   }
