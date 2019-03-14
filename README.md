@@ -1,27 +1,25 @@
 # Contact-page
-Simples página de contato, onde você pode reunir os links para suas mídias sociais
+Simple contact page where you can link to your social media
 
-## Como rodar localmente:
+## Getting Started
 
-Instale o gulp globalmente, se tiver já instalado ignore essa etapa:
-
+Install gulp globally:
 ```
 npm i -g gulp
 ```
-Depois instale as dependências do node
-
+Install node dependencies
 ```
 npm install
 ```
 
-Inicialize o lite-server:
+Initialize the lite-server
 ```
 npm run server
 ```
 
-Inicialize o gulp:
+Initialize o gulp:
 ```
 gulp
 ```
 
-OBS: Se você não souber instalar o nodejs no Debian e derivados eu fiz um post ensinando como fazer, [você pode ler aqui.](https://allythy.github.io/Como-instalar-o-NodeJS-no-Debian) Mas se você tiver com preguiça e quiser uma coisa mais rápida  [tem esse script que eu fiz para instalar o nodejs e outras coisas.](https://github.com/allythy/Pos-instalacao-Debian)
+OBS: If you do not know how to install nodejs in Debian and derivatives [you can read here.](https://allythy.github.io/Como-instalar-o-NodeJS-no-Debian) Or use this script to [install nodejs and other software.](https://github.com/allythy/Pos-instalacao-Debian)
